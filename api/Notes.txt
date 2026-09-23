@@ -1,0 +1,2 @@
+Notes
+1 - This for WebAPI folder. (.NetAPI or FastAPI (Python))
