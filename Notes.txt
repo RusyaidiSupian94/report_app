@@ -1,0 +1,4 @@
+Notes
+1 - This for WebAPI folder. (.NetAPI or FastAPI (Python))
+2 - Testing to create branch first then push
+3 - Add .devcontainer to make other collaborator can write the code with install any item
