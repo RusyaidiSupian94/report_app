@@ -18,4 +18,8 @@ if [ -f app/pubspec.yaml ]; then
   flutter pub get
 fi
 
+sudo apt-get update
+sudo apt-get install -y git-lfs
+git lfs install
+
 echo "Setup completed."
