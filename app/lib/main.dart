@@ -1,8 +1,7 @@
-
 import 'package:flutter/material.dart';
 
 import 'theme/app_theme.dart';
-import 'pages/login_page.dart';
+import 'pages/front_pages/login_page.dart';
 
 void main() {
   runApp(const ReportApp());

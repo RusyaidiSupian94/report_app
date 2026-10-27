@@ -10,11 +10,11 @@
         "projectUniqueName": "/workspaces/report_app/api/api.csproj",
         "projectName": "api",
         "projectPath": "/workspaces/report_app/api/api.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
+        "packagesPath": "/home/vscode/.nuget/packages/",
         "outputPath": "/workspaces/report_app/api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "/home/vscode/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"

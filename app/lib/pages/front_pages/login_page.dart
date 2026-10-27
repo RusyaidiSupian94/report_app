@@ -1,5 +1,6 @@
-
 import 'package:flutter/material.dart';
+
+import 'footer_page.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -28,9 +29,7 @@ class _LoginPageState extends State<LoginPage> {
     if (_formKey.currentState!.validate()) {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-          content: Text(
-            'Form valid for ${_emailController.text.trim()}',
-          ),
+          content: Text('Form valid for ${_emailController.text.trim()}'),
         ),
       );
 
@@ -58,15 +57,13 @@ class _LoginPageState extends State<LoginPage> {
                         width: 76,
                         height: 76,
                         decoration: BoxDecoration(
-                          color: Theme.of(context)
-                              .colorScheme.primaryContainer,
+                          color: Theme.of(context).colorScheme.primaryContainer,
                           borderRadius: BorderRadius.circular(22),
                         ),
                         child: Icon(
                           Icons.assignment_outlined,
                           size: 42,
-                          color: Theme.of(context)
-                              .colorScheme.primary,
+                          color: Theme.of(context).colorScheme.primary,
                         ),
                       ),
                     ),
@@ -117,9 +114,8 @@ class _LoginPageState extends State<LoginPage> {
                           return 'Please enter your email';
                         }
 
-                        if (!RegExp(
-                          r'^[^@\s]+@[^@\s]+\.[^@\s]+$',
-                        ).hasMatch(email)) {
+                        if (!RegExp(r'^[^@\s]+@[^@\s]+\.[^@\s]+$')
+                            .hasMatch(email)) {
                           return 'Please enter a valid email';
                         }
 
@@ -194,17 +190,6 @@ class _LoginPageState extends State<LoginPage> {
                       onPressed: _login,
                       child: const Text('Login'),
                     ),
-
-                    const SizedBox(height: 24),
-
-                    Text(
-                      'Report App © ${DateTime.now().year}',
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                        color: Colors.grey.shade600,
-                        fontSize: 13,
-                      ),
-                    ),
                   ],
                 ),
               ),
@@ -212,6 +197,7 @@ class _LoginPageState extends State<LoginPage> {
           ),
         ),
       ),
+      bottomNavigationBar: const FooterPage(),
     );
   }
 }
