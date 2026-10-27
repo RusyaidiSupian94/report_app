@@ -76,7 +76,7 @@
     ]
   },
   "packageFolders": {
-    "/home/vscode/.nuget/packages/": {}
+    "/home/codespace/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
@@ -84,11 +84,11 @@
       "projectUniqueName": "/workspaces/report_app/api/api.csproj",
       "projectName": "api",
       "projectPath": "/workspaces/report_app/api/api.csproj",
-      "packagesPath": "/home/vscode/.nuget/packages/",
+      "packagesPath": "/home/codespace/.nuget/packages/",
       "outputPath": "/workspaces/report_app/api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/vscode/.nuget/NuGet/NuGet.Config"
+        "/home/codespace/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
